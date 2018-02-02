@@ -1,0 +1,162 @@
+body{
+		margin:0;
+		padding:0;
+		background:#e6e6e6;
+		font-family: verdana;
+}
+
+#container {
+	max-width:1450px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+#advertising {
+	display: block;
+    margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#menulogo {
+	margin-right: 135px;
+}
+
+#mostaccessed {
+	float:left;
+	margin-right: 30px;
+}	
+
+.menu {
+	width:100%;
+}
+
+.mostaccessed ul {
+	padding:0;
+}
+
+.mostaccessed ul li {
+	padding: 5px 30px 0 0;
+}
+
+.botimages img {
+	float:left;
+	width:24.8%;
+	margin-right: 0.2%;
+}
+
+.toHide {
+	display:block;
+}
+
+.biggerimage img {
+	width:100%;	
+}
+
+.rightimages img {
+	width:49%;	
+	float:right;
+	padding:0;
+	margin:1px;
+}
+
+div.biggerimage {
+	margin-top:10px;
+	margin-bottom:20px;
+	background-color:#e6e6e6;
+	width:45%;
+	float:left;
+}
+
+div.rightimages{
+	background-color:#e6e6e6;
+	width:54.5%;
+	float:right;
+	margin-top:10px;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+div.botimages {
+	float:left;
+	margin-top: 0;
+	width:100%;
+	margin:1px;
+	padding:0;
+}
+
+li{
+	text-decoration: none;
+}
+
+img {
+	max-width:100%;
+	height:auto;
+	margin:0;
+}
+	
+nav ul {
+    list-style-type: none;
+    margin: 0;
+	padding:0 0 0 15px;
+    overflow: hidden;
+}
+nav li {
+    float: left;
+}
+
+nav.menu {
+	background-color: #ed1c24;	
+	font-size: 14px;
+}
+
+nav.menu img {
+	margin-top:25px;
+}
+
+nav.mostaccessed {
+	background-color: #242424;
+	font-size: 12px;
+}
+
+ul.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 15px 30px 15px;
+    text-decoration: none;
+}
+
+ul.menu li:last-child{
+    margin:28px 0 0 15px;
+}
+
+ul.menu li.trigramIcon {
+    display: none;
+  }
+
+ul.mostaccessed li a {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #111;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+.menu ul li{
+	width:25%;
+}
+
+.mostaccessed ul li{
+	width:12%;
+	padding: 5 7 5 7;
+}
+
+.biggerimage img {
+	width: 100%;
+	margin:0;
+}
+
+.rightimages img {
+	width:100%;		
+}
+
+.botimages img {
+	float:left;
+	width:50%;
+	margin: 0;
+}
+
+div.biggerimage {
+	width:100%;
+	margin:0;
+}
+
+div.rightimages{
+	width:100%;
+	margin:0;
+}
+
+@media screen and (max-width: 680px) {
+	
+	.toHide {
+		display:none;
+	}
+
+	.menu ul li:first-child{
+	width: 70%;
+	margin-right:15px;
+	padding:0;
+	}
+	
+	.botimages img {
+	float:left;
+	width:100%;
+	margin: 0;
+	}
+
+	.menu img {
+	float:left;
+	margin:0;
+	padding:0;
+  	}
+  
+	.mostaccessed{	
+	  display: none;
+	}
+
+	.menu ul li{		
+		width: 100%;
+		padding: 0;
+		margin:0;
+	}
+		
+	ul.menu li.trigramIcon {
+		display: inline-block;
+		float:left;
+		width:auto;
+		text-align: center
+  	}
+
+	li.icon a {
+		margin-top:12px;
+		
+	}
+}
